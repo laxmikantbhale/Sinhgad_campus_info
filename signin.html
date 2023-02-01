@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        signin
+    </title>
+    <link rel="stylesheet" href="mystyle.css">
+    <style>   
+        Body {  
+          font-family: Calibri, Helvetica, sans-serif;  
+          background-color: pink;  
+        }  
+        button {   
+               background-color: #4CAF50;   
+               width: 100%;  
+                color: orange;   
+                padding: 15px;   
+                margin: 10px 0px;   
+                border: none;   
+                cursor: pointer;   
+                 }   
+         form {   
+                border: 3px solid #f1f1f1;   
+            }   
+         input[type=text], input[type=password] {   
+                width: 100%;   
+                margin: 8px 0;  
+                padding: 12px 20px;   
+                display: inline-block;   
+                border: 2px solid green;   
+                box-sizing: border-box;   
+            }  
+         button:hover {   
+                opacity: 0.7;   
+            }   
+          .cancelbtn {   
+                width: auto;   
+                padding: 10px 18px;  
+                margin: 10px 5px;  
+            }   
+                
+             
+         .container {   
+                padding: 25px;   
+                background-color: lightblue;  
+            }   
+        </style>  
+</head>
+<body>
+    <hr>
+    <div id="topbar">
+    
+        <img id="logo" class="topbar_section" src="images\slogo.jpg">
+    
+        <div id="signin" class="topbar_section">
+            <img id="signin_image" src="images\login.png">
+            <span id="signin_text"><a href="signin.html">Sign in</a></span>
+        </div>
+
+
+        <div id="home" class="topbar_section">
+            <span id="home_text"><a href="index.html">Home</a></span>
+            
+        </div>
+
+
+        <div id="images" class="topbar_section">
+            <span id="images_text"><a href="images.html"> Images </a></span>
+        </div>
+
+
+        <div class="topbar_section" id="maps">
+            <span id="map_text"><a href="maps.html">Maps</a></span>
+        </div>
+
+
+        <div class="topbar_section" id="colleges" >
+            <span id="colleges_text"><a href="collages.html"> Colleges</a></span>
+        </div>
+
+        <div class="topbar_section" id="schools" >
+            <span id="schools_text"><a href="schools.html">Schools</a></span>
+        </div>
+
+        <div class="topbar_section" id="shops" >
+            <span id="shops_text"><a href="shops.html">Shops</a></span>
+        </div>
+
+
+        <div class="topbar_section" id="hospitals" >
+            <span id="hospitals_text"><a href="hospital.html">Hospitals</a></span>
+        </div>
+
+        
+
+
+        <div class="topbar_section" id="contact">
+            <span id="contact_text"><a href="contact.html">Contct us</a></span>
+        </div>
+
+        <div class="search_section" id="search">
+            <span id="search_text"><a href="https://www.google.com/0">Search</a></span>
+        </div>
+
+
+        
+    </div>
+
+    <hr>
+    <br>
+    <center> <h1> Login Form </h1> </center>   
+    <form>  
+        <div class="container">   
+            <label>Username : </label>   
+            <input type="text" placeholder="Enter Username" name="username" required>  
+            <label>Password : </label>   
+            <input type="password" placeholder="Enter Password" name="password" required>  
+            <button type="submit">Login</button>   
+            <input type="checkbox" checked="checked"> Remember me   
+            <button type="button" class="cancelbtn"> Cancel</button>   
+            Forgot <a href="#"> password? </a>   
+        </div>   
+    </form>     
+
+    
+</body>
+</html>
